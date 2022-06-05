@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using commander64_backend.models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,7 +6,7 @@ namespace commander64_backend.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class GetRowElementBySearchController : ControllerBase
+    public class RowElementBySearchController : ControllerBase
     {
 
         private static List<RowElement> testData = new()
