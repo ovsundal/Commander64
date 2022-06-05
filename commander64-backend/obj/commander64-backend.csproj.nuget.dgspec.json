@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\commander64\\commander64-backend\\commander64-backend.csproj": {}
+    "C:\\dev\\Commander64\\commander64-backend\\commander64-backend.csproj": {}
   },
   "projects": {
-    "C:\\dev\\commander64\\commander64-backend\\commander64-backend.csproj": {
+    "C:\\dev\\Commander64\\commander64-backend\\commander64-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\commander64\\commander64-backend\\commander64-backend.csproj",
+        "projectUniqueName": "C:\\dev\\Commander64\\commander64-backend\\commander64-backend.csproj",
         "projectName": "commander64-backend",
-        "projectPath": "C:\\dev\\commander64\\commander64-backend\\commander64-backend.csproj",
+        "projectPath": "C:\\dev\\Commander64\\commander64-backend\\commander64-backend.csproj",
         "packagesPath": "C:\\Users\\osund\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\commander64\\commander64-backend\\obj\\",
+        "outputPath": "C:\\dev\\Commander64\\commander64-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osund\\AppData\\Roaming\\NuGet\\NuGet.Config",

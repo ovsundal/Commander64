@@ -3,11 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>commander64_backend</RootNamespace>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Persistence" />
-  </ItemGroup>
 
 
 </Project>
