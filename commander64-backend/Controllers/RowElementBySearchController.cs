@@ -8,17 +8,25 @@ namespace commander64_backend.Controllers
     [Route("[controller]")]
     public class RowElementBySearchController : ControllerBase
     {
-
-        private static List<RowElement> testData = new()
-        {
-            new RowElement(){Domain = "Typescript", Description = "Boilerplate123", Snippet = "export default = (): JSX.Element => { return ( ) }"},
-            new RowElement(){Domain = "C#", Description = "Boilerplatec#", Snippet = "Hartford"},
-            new RowElement(){Domain = "Powershell", Description = "Boilerplateps", Snippet = "Tampa"}
-        };
-        
         [HttpGet]
-        public IEnumerable<RowElement> Get()
+        public List<List<string>> Get()
         {
+            List<List<string>> testData = new()
+            {
+                new List<string>
+                {
+                    "Typescript", "Boilerplate123", "export default = (): JSX.Element => { return ( ) }",
+                },
+                new List<string>
+                {
+                    "C#", "Boilerplatec#", "Hartford",
+                },
+                new List<string>
+                {
+                    "Powershell", "Boilerplateps", "Tampa"
+                },
+            };
+
             return testData;
         }
     }
