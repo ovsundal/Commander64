@@ -28,7 +28,7 @@ export default () => {
       options={{
         selectableRows: undefined,
       }}
-      title={"Employee List"}
+      title={""}
       data={listData}
       columns={columns}
     />
