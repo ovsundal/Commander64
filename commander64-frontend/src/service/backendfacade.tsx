@@ -12,5 +12,5 @@ export default () => {
       const response = await fetch(BACKEND_URL + "RowElementBySearch");
       return response.json();
     },
-  } as unknown as IBackendFacade;
+  } as IBackendFacade;
 };
