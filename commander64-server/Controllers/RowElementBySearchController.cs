@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using commander64_backend.models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace commander64_backend.Controllers
 {
